@@ -83,10 +83,11 @@
             <Entry x:Name="txtBill"
                    Grid.Column="1"
                    Keyboard="Numeric"
-                   Text="0.00"
+                   Placeholder="0.00"
                    TextColor="{StaticResource DarkFont}"
+                   BackgroundColor="{StaticResource SectionsColor}"
                    VerticalOptions="Center"
-                   Completed="TxtBill_Completed"/>
+                   TextChanged="TxtBill_Completed"/>
             <Label Text="Choose your tip"
                    Grid.Row="1"
                    TextColor="{StaticResource LightFont}"
